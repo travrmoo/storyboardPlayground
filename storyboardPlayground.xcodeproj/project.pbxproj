@@ -15,6 +15,7 @@
 		670189C026B33E1700EED966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670189BE26B33E1700EED966 /* LaunchScreen.storyboard */; };
 		670189CB26B33E1700EED966 /* storyboardPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670189CA26B33E1700EED966 /* storyboardPlaygroundTests.swift */; };
 		670189D626B33E1700EED966 /* storyboardPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670189D526B33E1700EED966 /* storyboardPlaygroundUITests.swift */; };
+		670189E426B3500400EED966 /* 1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 670189E326B3500400EED966 /* 1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		670189D126B33E1700EED966 /* storyboardPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyboardPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		670189D526B33E1700EED966 /* storyboardPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboardPlaygroundUITests.swift; sourceTree = "<group>"; };
 		670189D726B33E1700EED966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670189E326B3500400EED966 /* 1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				670189B726B33E1600EED966 /* ViewController.swift */,
 				670189B926B33E1600EED966 /* Main.storyboard */,
 				670189BC26B33E1700EED966 /* Assets.xcassets */,
+				670189E326B3500400EED966 /* 1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg */,
 				670189BE26B33E1700EED966 /* LaunchScreen.storyboard */,
 				670189C126B33E1700EED966 /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 				670189C026B33E1700EED966 /* LaunchScreen.storyboard in Resources */,
 				670189BD26B33E1700EED966 /* Assets.xcassets in Resources */,
 				670189BB26B33E1600EED966 /* Main.storyboard in Resources */,
+				670189E426B3500400EED966 /* 1-abstract-colorful-tiled-square-mosaic-pattern-cro-design.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
