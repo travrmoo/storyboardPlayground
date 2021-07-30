@@ -7,6 +7,40 @@
 
 import UIKit
 
+//found this code @: https://stackoverflow.com/questions/28854469/change-uibutton-bordercolor-in-storyboard
+//am attempting to format the buttons to a more pleasing aesthetic with rounded corners/colored borders etc...
+@IBDesignable extension UIButton {
+
+    @IBInspectable var borderWidth: CGFloat {
+        set {
+            layer.borderWidth = newValue
+        }
+        get {
+            return layer.borderWidth
+        }
+    }
+
+    @IBInspectable var cornerRadius: CGFloat {
+        set {
+            layer.cornerRadius = newValue
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
+
+    @IBInspectable var borderColor: UIColor? {
+        set {
+            guard let uiColor = newValue else { return }
+            layer.borderColor = uiColor.cgColor
+        }
+        get {
+            guard let color = layer.borderColor else { return nil }
+            return UIColor(cgColor: color)
+        }
+    }
+}
+
 //extension to create random CGFloat
 extension CGFloat {
     static func random() -> CGFloat {
