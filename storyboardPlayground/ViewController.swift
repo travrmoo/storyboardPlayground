@@ -67,7 +67,11 @@ class ViewController: UIViewController{
         // Do any additional setup after loading the view.
     }
     
-    
+    @IBOutlet var mainView: UIView!
+    @IBOutlet weak var middleStack: UIStackView!
+    @IBOutlet weak var bottomStack: UIStackView!
+    @IBOutlet weak var topStack: UIStackView!
+    @IBOutlet weak var mainStackView: UIStackView!
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var topConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightConstraint: NSLayoutConstraint!
@@ -75,7 +79,10 @@ class ViewController: UIViewController{
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
     @IBAction func redTap(_ sender: Any) {
-        self.view.backgroundColor = UIColor.red
+        self.view.backgroundColor = UIColor.systemRed
+        self.topStack.backgroundColor = UIColor.systemRed
+        self.middleStack.backgroundColor = UIColor.systemRed
+        self.bottomStack.backgroundColor = UIColor.systemRed
         rightConstraint.constant = 61
         leftConstraint.constant = 61
         bottomConstraint.constant = 151
@@ -84,7 +91,10 @@ class ViewController: UIViewController{
     }
     
     @IBAction func greenTap(_ sender: Any) {
-        self.view.backgroundColor = UIColor.green
+        self.view.backgroundColor = UIColor.systemGreen
+        self.topStack.backgroundColor = UIColor.systemGreen
+        self.middleStack.backgroundColor = UIColor.systemGreen
+        self.bottomStack.backgroundColor = UIColor.systemGreen
         rightConstraint.constant = 65
         leftConstraint.constant = 65
         bottomConstraint.constant = 165
@@ -93,7 +103,10 @@ class ViewController: UIViewController{
     }
     
     @IBAction func yellowTap(_ sender: Any) {
-        self.view.backgroundColor = UIColor.yellow
+        self.view.backgroundColor = UIColor.systemYellow
+        self.topStack.backgroundColor = UIColor.systemYellow
+        self.middleStack.backgroundColor = UIColor.systemYellow
+        self.bottomStack.backgroundColor = UIColor.systemYellow
         rightConstraint.constant = 50
         leftConstraint.constant = 50
         bottomConstraint.constant = 170
@@ -102,7 +115,10 @@ class ViewController: UIViewController{
     }
     
     @IBAction func purpleTap(_ sender: Any) {
-        self.view.backgroundColor = UIColor.purple
+        self.view.backgroundColor = UIColor.systemPurple
+        self.topStack.backgroundColor = UIColor.systemPurple
+        self.middleStack.backgroundColor = UIColor.systemPurple
+        self.bottomStack.backgroundColor = UIColor.systemPurple
         rightConstraint.constant = 108
         leftConstraint.constant = 108
         bottomConstraint.constant = 121
@@ -111,7 +127,10 @@ class ViewController: UIViewController{
     }
     
     @IBAction func orangeTap(_ sender: Any) {
-        self.view.backgroundColor = UIColor.orange
+        self.view.backgroundColor = UIColor.systemOrange
+        self.topStack.backgroundColor = UIColor.systemOrange
+        self.middleStack.backgroundColor = UIColor.systemOrange
+        self.bottomStack.backgroundColor = UIColor.systemOrange
         rightConstraint.constant = 64
         leftConstraint.constant = 64
         bottomConstraint.constant = 121
@@ -121,6 +140,9 @@ class ViewController: UIViewController{
     
     @IBAction func randomTap(_ sender: Any) {
         self.view.backgroundColor = .random()
+        self.topStack.backgroundColor = self.view.backgroundColor
+        self.middleStack.backgroundColor = self.view.backgroundColor
+        self.bottomStack.backgroundColor = self.view.backgroundColor
         rightConstraint.constant = 42
         leftConstraint.constant = 42
         bottomConstraint.constant = 165
@@ -130,15 +152,22 @@ class ViewController: UIViewController{
     
     @IBAction func blueTap(_ sender: Any) {
         self.view.backgroundColor = UIColor.blue
+        self.topStack.backgroundColor = UIColor.systemBlue
+        self.middleStack.backgroundColor = UIColor.systemBlue
+        self.bottomStack.backgroundColor = UIColor.systemBlue
+        uiImageView.image = UIImage(named: "cookie")
         rightConstraint.constant = 60
         leftConstraint.constant = 60
         bottomConstraint.constant = 161
         topConstraint.constant = 121
-        uiImageView.image = UIImage(named: "cookie")
+        
     }
     
     @IBAction func pinkTap(_ sender: Any) {
         self.view.backgroundColor = UIColor.systemPink
+        self.topStack.backgroundColor = UIColor.systemPink
+        self.middleStack.backgroundColor = UIColor.systemPink
+        self.bottomStack.backgroundColor = UIColor.systemPink
         rightConstraint.constant = 130
         leftConstraint.constant = 130
         bottomConstraint.constant = 155
@@ -148,6 +177,9 @@ class ViewController: UIViewController{
     
     @IBAction func blackTap(_ sender: Any) {
         self.view.backgroundColor = UIColor.black
+        self.topStack.backgroundColor = UIColor.black
+        self.middleStack.backgroundColor = UIColor.black
+        self.bottomStack.backgroundColor = UIColor.black
         rightConstraint.constant = 62
         leftConstraint.constant = 62
         bottomConstraint.constant = 152
