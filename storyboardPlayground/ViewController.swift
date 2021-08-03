@@ -83,10 +83,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemRed
         self.middleStack.backgroundColor = UIColor.systemRed
         self.bottomStack.backgroundColor = UIColor.systemRed
-        rightConstraint.constant = 61
-        leftConstraint.constant = 61
-        bottomConstraint.constant = 151
-        topConstraint.constant = 111
+//        rightConstraint.constant = 61
+//        leftConstraint.constant = 61
+//        bottomConstraint.constant = 151
+//        topConstraint.constant = 111
         uiImageView.image = UIImage(named: "Red_Forman")
     }
     
@@ -95,10 +95,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemGreen
         self.middleStack.backgroundColor = UIColor.systemGreen
         self.bottomStack.backgroundColor = UIColor.systemGreen
-        rightConstraint.constant = 65
-        leftConstraint.constant = 65
-        bottomConstraint.constant = 165
-        topConstraint.constant = 125
+//        rightConstraint.constant = 65
+//        leftConstraint.constant = 65
+//        bottomConstraint.constant = 165
+//        topConstraint.constant = 125
         uiImageView.image = UIImage(named: "kermit")
     }
     
@@ -107,10 +107,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemYellow
         self.middleStack.backgroundColor = UIColor.systemYellow
         self.bottomStack.backgroundColor = UIColor.systemYellow
-        rightConstraint.constant = 50
-        leftConstraint.constant = 50
-        bottomConstraint.constant = 170
-        topConstraint.constant = 130
+//        rightConstraint.constant = 50
+//        leftConstraint.constant = 50
+//        bottomConstraint.constant = 170
+//        topConstraint.constant = 130
         uiImageView.image = UIImage(named: "minion")
     }
     
@@ -119,10 +119,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemPurple
         self.middleStack.backgroundColor = UIColor.systemPurple
         self.bottomStack.backgroundColor = UIColor.systemPurple
-        rightConstraint.constant = 108
-        leftConstraint.constant = 108
-        bottomConstraint.constant = 121
-        topConstraint.constant = 81
+//        rightConstraint.constant = 108
+//        leftConstraint.constant = 108
+//        bottomConstraint.constant = 121
+//        topConstraint.constant = 81
         uiImageView.image = UIImage(named: "barney")
     }
     
@@ -131,10 +131,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemOrange
         self.middleStack.backgroundColor = UIColor.systemOrange
         self.bottomStack.backgroundColor = UIColor.systemOrange
-        rightConstraint.constant = 64
-        leftConstraint.constant = 64
-        bottomConstraint.constant = 121
-        topConstraint.constant = 81
+//        rightConstraint.constant = 64
+//        leftConstraint.constant = 64
+//        bottomConstraint.constant = 121
+//        topConstraint.constant = 81
         uiImageView.image = UIImage(named: "kenny")
     }
     
@@ -143,10 +143,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = self.view.backgroundColor
         self.middleStack.backgroundColor = self.view.backgroundColor
         self.bottomStack.backgroundColor = self.view.backgroundColor
-        rightConstraint.constant = 42
-        leftConstraint.constant = 42
-        bottomConstraint.constant = 165
-        topConstraint.constant = 125
+//        rightConstraint.constant = 42
+//        leftConstraint.constant = 42
+//        bottomConstraint.constant = 165
+//        topConstraint.constant = 125
         uiImageView.image = UIImage(named: "riddler")
     }
     
@@ -156,10 +156,10 @@ class ViewController: UIViewController{
         self.middleStack.backgroundColor = UIColor.systemBlue
         self.bottomStack.backgroundColor = UIColor.systemBlue
         uiImageView.image = UIImage(named: "cookie")
-        rightConstraint.constant = 60
-        leftConstraint.constant = 60
-        bottomConstraint.constant = 161
-        topConstraint.constant = 121
+//        rightConstraint.constant = 60
+//        leftConstraint.constant = 60
+//        bottomConstraint.constant = 161
+//        topConstraint.constant = 121
         
     }
     
@@ -168,10 +168,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.systemPink
         self.middleStack.backgroundColor = UIColor.systemPink
         self.bottomStack.backgroundColor = UIColor.systemPink
-        rightConstraint.constant = 130
-        leftConstraint.constant = 130
-        bottomConstraint.constant = 155
-        topConstraint.constant = 115
+//        rightConstraint.constant = 130
+//        leftConstraint.constant = 130
+//        bottomConstraint.constant = 155
+//        topConstraint.constant = 115
         uiImageView.image = UIImage(named: "pink")
     }
     
@@ -180,10 +180,10 @@ class ViewController: UIViewController{
         self.topStack.backgroundColor = UIColor.black
         self.middleStack.backgroundColor = UIColor.black
         self.bottomStack.backgroundColor = UIColor.black
-        rightConstraint.constant = 62
-        leftConstraint.constant = 62
-        bottomConstraint.constant = 152
-        topConstraint.constant = 112
+//        rightConstraint.constant = 62
+//        leftConstraint.constant = 62
+//        bottomConstraint.constant = 152
+//        topConstraint.constant = 112
         uiImageView.image = UIImage(named: "spaceghost")
     }
 }
